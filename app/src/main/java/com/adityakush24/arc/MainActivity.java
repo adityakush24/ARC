@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         final RippleBackground rippleBackground= findViewById(R.id.content);
         rippleBackground.startRippleAnimation();
-        /*constraintLayout = findViewById(R.id.login_layout);
+        constraintLayout = findViewById(R.id.login_layout);
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
         animationDrawable.setEnterFadeDuration(2500);
         animationDrawable.setExitFadeDuration(5000);
-        animationDrawable.start();*/
+        animationDrawable.start();
         enableButton = findViewById(R.id.swipe_btn);
         loginButton = findViewById(R.id.login_btn);
         enableButton.setOnActiveListener(new OnActiveListener() {
