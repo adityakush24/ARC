@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         slideup = AnimationUtils.loadAnimation(getApplicationContext(),
                 R.anim.slide_up);
         slideup.setAnimationListener(this);
-        final RippleBackground rippleBackground= findViewById(R.id.content);
+        RippleBackground rippleBackground= findViewById(R.id.content);
         rippleBackground.startRippleAnimation();
 
         /*constraintLayout = findViewById(R.id.login_layout);
@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
       register.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View view) {
-              rippleBackground.setVisibility(View.INVISIBLE);
               loginButton.setVisibility(View.VISIBLE);
               loginButton.startAnimation(slideup);
           }

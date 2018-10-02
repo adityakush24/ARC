@@ -5,7 +5,7 @@
     android:id="@+id/login_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_grad"
+    android:background="@drawable/login_grad1"
     tools:context="com.adityakush24.arc.MainActivity">
     <com.skyfishjy.library.RippleBackground
         android:id="@+id/content"
@@ -41,8 +41,8 @@
         android:text="Get Started !"
         android:textAlignment="center"
         android:textColor="#fff"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/roboto_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         android:backgroundTint="@drawable/login_grad"
@@ -57,6 +57,7 @@
         android:layout_marginLeft="15dp"
         android:inputType="textEmailAddress"
         android:padding="10dp"
+        android:fontFamily="@font/roboto_light"
         android:textColor="#FFFFFF"
         android:textColorHint="#F2F2F2"
         android:textSize="14sp"
@@ -64,7 +65,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        android:backgroundTint="@drawable/login_grad"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.53"/>
@@ -77,7 +77,7 @@
         android:padding="10dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="@font/roboto_light"
         android:textColor="#FFFFFF"
         android:textColorHint="#F2F2F2"
         android:textSize="14sp"
