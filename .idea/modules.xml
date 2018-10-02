@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ARC.iml" filepath="$PROJECT_DIR$/.idea/ARC.iml" />
-      <module fileurl="file://D:\ARC\ARC.iml" filepath="D:\ARC\ARC.iml" />
+      <module fileurl="file://C:\Users\Ayush Srivastava\AndroidStudioProjects\ARCv2\ARC.iml" filepath="C:\Users\Ayush Srivastava\AndroidStudioProjects\ARCv2\ARC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ARCv2.iml" filepath="$PROJECT_DIR$/ARCv2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\ARC\app\app.iml" filepath="D:\ARC\app\app.iml" />
     </modules>
   </component>
 </project>
