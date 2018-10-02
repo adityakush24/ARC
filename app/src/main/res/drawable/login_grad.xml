@@ -3,7 +3,7 @@
 
     <item
         android:drawable="@drawable/login_grad1"
-        android:duration="5000"/>
+        android:duration="4000"/>
 
     <item
         android:drawable="@drawable/login_grad2"
@@ -11,14 +11,14 @@
 
     <item
         android:drawable="@drawable/login_grad3"
-        android:duration="5000"/>
+        android:duration="6000"/>
 
     <item
         android:drawable="@drawable/login_grad4"
-        android:duration="5000"/>
+        android:duration="7000"/>
 
     <item
         android:drawable="@drawable/login_grad5"
-        android:duration="5000"/>
+        android:duration="8000"/>
 
 </animation-list>
