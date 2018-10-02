@@ -42,13 +42,13 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         enableButton = findViewById(R.id.swipe_btn);
         */
         loginButton = (Button)findViewById(R.id.loginbtn);
-        enableButton.setOnActiveListener(new OnActiveListener() {
+      /*  enableButton.setOnActiveListener(new OnActiveListener() {
             @Override
             public void onActive() {
                 loginButton.setVisibility(View.GONE);
                 Toast.makeText(MainActivity.this, "Register", Toast.LENGTH_SHORT).show();
             }
-        });
+        });*/
       register.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View view) {
