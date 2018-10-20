@@ -61,6 +61,7 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#F2F2F2"
         android:textSize="14sp"
+        android:id="@+id/email"
         android:background="@drawable/edittext"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,6 +77,7 @@
         android:inputType="textPassword"
         android:padding="10dp"
         android:layout_marginLeft="15dp"
+        android:id="@+id/password"
         android:layout_marginRight="15dp"
         android:fontFamily="@font/roboto_light"
         android:textColor="#FFFFFF"
@@ -86,7 +88,28 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.70" />
+        app:layout_constraintVertical_bias="0.664" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/confirm_password"
+        android:hint="confirm password"
+        android:background="@drawable/edittext"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F2F2F2"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        android:visibility="invisible"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -94,6 +117,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:id="@+id/forgt_pass"
         android:layout_marginTop="65dp"
         android:clickable="true"
         android:text="FORGOT PASSWORD"
@@ -108,21 +132,21 @@
 
     <ImageView
         android:layout_width="35dp"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:elevation="55dp"
         android:src="@drawable/signin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.31"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95" />
+        app:layout_constraintVertical_bias="0.871" />
    <Button
        android:layout_width="match_parent"
        android:layout_height="50dp"
-       android:layout_marginLeft="80dp"
+       android:layout_marginLeft="90dp"
        android:id="@+id/loginbtn"
-       android:layout_marginRight="80dp"
+       android:layout_marginRight="90dp"
        android:background="@drawable/loginbtn"
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintEnd_toEndOf="parent"
