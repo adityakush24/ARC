@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ARC</string>
+    <string name="sign_up_as">Sign Up As</string>
+    <string name="email">Email</string>
+    <string name="teacher">TEACHER</string>
+    <string name="student">STUDENT</string>
+    <string name="year">YEAR</string>
+    <string name="roll_number">ROLL NUMBER</string>
 </resources>
