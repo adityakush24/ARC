@@ -32,8 +32,8 @@
             android:layout_height="64dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:rotation="-30"
-            android:src="@drawable/arc_shape" />
+
+            android:src="@drawable/logo" />
     </com.skyfishjy.library.RippleBackground>
 
     <TextView
@@ -54,7 +54,7 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:layout_marginEnd="15dp"
         android:layout_marginStart="15dp"
         android:background="@drawable/edittext"
@@ -76,7 +76,7 @@
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
-        android:layout_height="73dp"
+        android:layout_height="60dp"
         android:layout_marginEnd="15dp"
         android:layout_marginStart="15dp"
         android:background="@drawable/edittext"
@@ -92,12 +92,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.694" />
+        app:layout_constraintVertical_bias="0.68" />
 
     <EditText
         android:id="@+id/confirm_password"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:layout_marginEnd="15dp"
         android:layout_marginStart="15dp"
         android:background="@drawable/edittext"
@@ -108,13 +108,13 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#F2F2F2"
         android:textSize="14sp"
-        android:visibility="invisible"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintVertical_bias="0.714" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -141,6 +141,7 @@
         android:layout_width="212dp"
         android:layout_height="48dp"
         android:background="@drawable/loginbtn"
+        android:onClick="btnAction"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
